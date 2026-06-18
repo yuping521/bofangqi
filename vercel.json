@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/music/:path*",
+      "destination": "https://music.163.com/api/:path*"
+    },
+    {
+      "source": "/api/qqsearch/:path*",
+      "destination": "https://c.y.qq.com/:path*"
+    },
+    {
+      "source": "/api/lxsource/:path*",
+      "destination": "https://lxmusicapi.onrender.com/:path*"
+    },
+    {
+      "source": "/img-p1/:path*",
+      "destination": "https://p1.music.126.net/:path*"
+    },
+    {
+      "source": "/img-p2/:path*",
+      "destination": "https://p2.music.126.net/:path*"
+    },
+    {
+      "source": "/img-p3/:path*",
+      "destination": "https://p3.music.126.net/:path*"
+    },
+    {
+      "source": "/img-p4/:path*",
+      "destination": "https://p4.music.126.net/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
